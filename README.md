@@ -17,7 +17,7 @@
 
 1. リポジトリのクローン:
 ```bash
-git clone https://github.com/yourusername/pdf-profit-analyzer.git
+git clone https://github.com/Be114/pdf-profit-analyzer.git
 cd pdf-profit-analyzer
 ```
 
@@ -52,7 +52,7 @@ curl -X POST \
 {
   "success": true,
   "analysis": "財務分析の結果...",
-  "thoughts": "分析の思考プロセス...",
+  "thoughts": "AIの思考プロセス...",
   "metadata": {
     "pageCount": 10,
     "documentInfo": {
@@ -66,7 +66,7 @@ curl -X POST \
 
 - Node.js
 - Express.js
-- Google Gemini AI API
+- Google Gemini AI API（2.0 Flash Thinking）
 - pdf-parse
 - multer（ファイルアップロード）
 
