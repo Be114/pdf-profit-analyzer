@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+
+# Upload directory
+uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+.DS_Store
