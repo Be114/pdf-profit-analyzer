@@ -4,7 +4,7 @@ import multer from 'multer';
 import { router as apiRouter } from './routes/api.js';
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 // ミドルウェアの設定
 app.use(cors());

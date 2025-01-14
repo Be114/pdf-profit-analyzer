@@ -42,7 +42,7 @@ npm run dev
 ### PDFファイルの分析
 ```bash
 curl -X POST \
-  http://localhost:3000/api/analyze \
+  http://localhost:8080/api/analyze \
   -H "Content-Type: multipart/form-data" \
   -F "pdf=@決算書.pdf"
 ```
