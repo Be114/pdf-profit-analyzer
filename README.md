@@ -1,44 +1,44 @@
-# PDF Profit Analyzer
+# Welcome to your Lovable project
 
-決算書PDFを自動で分析し、財務状況を詳細に解説するAPIサーバー。Gemini 2.0 Flash Thinkingモデルを使用して、高度な財務分析を提供します。
+## Project info
 
-## 機能
+**URL**: https://lovable.dev/projects/9cda7b47-6ff4-48d9-8d2f-23d2dac15745
 
-- PDFファイルのアップロードと解析
-- AIによる財務分析
-  - 収益性分析
-  - 財務健全性分析
-  - 成長性分析
-  - リスク要因の特定
-- AIの思考プロセスの可視化
-- 分析結果のJSON形式での提供
+## How can I edit this code?
 
-## セットアップ
+There are several ways of editing your application.
 
-1. リポジトリのクローン:
-```bash
-git clone https://github.com/Be114/pdf-profit-analyzer.git
-cd pdf-profit-analyzer
-```
+**Use Lovable**
 
-2. 依存関係のインストール:
-```bash
-npm install
-```
+Simply visit the [Lovable Project](https://lovable.dev/projects/9cda7b47-6ff4-48d9-8d2f-23d2dac15745) and start prompting.
 
-3. 環境変数の設定:
-```bash
-# .envファイルを作成
-GEMINI_API_KEY=your_api_key
-```
+Changes made via Lovable will be committed automatically to this repo.
 
-4. サーバーの起動:
-```bash
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-## API使用方法
+**Edit a file directly in GitHub**
 
+<<<<<<< HEAD
 ### PDFファイルの分析
 ```bash
 curl -X POST \
@@ -46,32 +46,34 @@ curl -X POST \
   -H "Content-Type: multipart/form-data" \
   -F "pdf=@決算書.pdf"
 ```
+=======
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+>>>>>>> 75d1a108e3a20402b4249bea8370aed9df5b59b5
 
-### レスポンス形式
-```json
-{
-  "success": true,
-  "analysis": "財務分析の結果...",
-  "thoughts": "AIの思考プロセス...",
-  "metadata": {
-    "pageCount": 10,
-    "documentInfo": {
-      "Title": "決算書2023"
-    }
-  }
-}
-```
+**Use GitHub Codespaces**
 
-## 技術スタック
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-- Node.js
-- Express.js
-- Google Gemini AI API（2.0 Flash Thinking）
-- pdf-parse
-- multer（ファイルアップロード）
+## What technologies are used for this project?
 
-## 注意事項
+This project is built with .
 
-- アップロードできるPDFファイルの最大サイズは5MBです
-- PDFファイルは一時的にサーバーに保存され、処理後に自動的に削除されます
-- APIキーは必ず環境変数として設定してください
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/9cda7b47-6ff4-48d9-8d2f-23d2dac15745) and click on Share -> Publish.
+
+## I want to use a custom domain - is that possible?
+
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
